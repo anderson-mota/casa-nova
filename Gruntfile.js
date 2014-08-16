@@ -4,6 +4,10 @@
 
 module.exports = function(grunt) {
 
+    var mountFolder = function (connect, dir) {
+        return connect.static(require('path').resolve(dir));
+    };
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         compass: {
@@ -44,9 +48,37 @@ module.exports = function(grunt) {
                 }
             }
         },
+        connect: {
+            server: {
+                options: {
+                    port: 8000,
+                    base: 'app',
+                    hostname: 'localhost',
+                    livereload: true,
+                    open: true,
+                    middleware: function (connect) {
+                        return [
+                            require('connect-livereload')(),
+                            mountFolder(connect, '.tmp'),
+                            mountFolder(connect, 'app')
+                        ];
+                    }
+                }
+            }
+        },
+        open: {
+            all: {
+                path: 'http://localhost:<%= connect.server.options.port %>'
+            }
+        },
         watch: {
-            files: ['<%= jshint.files %>'],
-            tasks: ['jshint']
+            dev: {
+                files: ['app/**/*'],
+                tasks:[],
+                options: {
+                    livereload: true
+                }
+            }
         }
     });
 
@@ -55,6 +87,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-open');
 
     grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'compass']);
+    grunt.registerTask('server', ['connect:server', 'watch:dev']);
 };
