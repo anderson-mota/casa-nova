@@ -48,6 +48,14 @@ module.exports = function(grunt) {
                 }
             }
         },
+        bower: {
+            install: {
+                options: {
+                    targetDir: "./app/components",
+                    layout: "byComponent"
+                }
+            }
+        },
         connect: {
             server: {
                 options: {
@@ -73,11 +81,15 @@ module.exports = function(grunt) {
         },
         watch: {
             dev: {
-                files: ['app/**/*'],
+                files: ['./app/**/*'],
                 tasks:[],
                 options: {
                     livereload: true
                 }
+            },
+            style: {
+                files: ['./app/sass/**/*.scss'],
+                tasks: ['compass']
             }
         }
     });
@@ -89,6 +101,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-open');
+    grunt.loadNpmTasks('grunt-bower-task');
 
     grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'compass']);
     grunt.registerTask('server', ['connect:server', 'watch:dev']);

@@ -7,3 +7,4 @@ javascripts_dir = 'app/js'
 relative_assets = true
 line_comments = true
 # output_style = :expanded
+require 'sass-css-importer'

@@ -1,0 +1,46 @@
+@import "variables";
+@import "../components/bootstrap-sass/lib/bootstrap";
+@import "../components/font-awesome/scss/font-awesome";
+
+//COMPONENTS THEME STYLE
+@import "CSS:../theme/infusion/assets/css/camera.css";
+@import "CSS:../theme/infusion/assets/css/owl.carousel.css";
+@import "CSS:../theme/infusion/assets/css/owl.theme.css";
+@import "CSS:../theme/infusion/assets/css/animate.css";
+
+//CUSTOM THEME STYLE
+@import "CSS:../theme/infusion/assets/css/portfolio";
+@import "CSS:../theme/infusion/assets/css/elements";
+@import "CSS:../theme/infusion/assets/css/theme";
+@import "CSS:../theme/infusion/assets/css/header";
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+    text-align: right;
+    color: red;
+
+    &:before {
+        content: "[";
+    }
+
+    &:after {
+        content: "]";
+    }
+
+    > li {
+        display: inline;
+
+        &:before {
+            content: "|";
+            padding-right: 0.3em;
+        }
+
+        &:nth-child(1):before {
+            content: "";
+            padding: 0;
+        }
+    }
+}
