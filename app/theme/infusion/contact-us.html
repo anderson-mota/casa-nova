@@ -1,0 +1,156 @@
+<!--
+====================================================
+ main section
+====================================================
+ -->
+<div id="main" role="main">
+
+    <!-- page header -->
+    <div class="page-header light">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="heading-title">
+                        <h2>Contato</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <!-- breadcrumb -->
+                    <ul class="breadcrumb">
+                        <li><a href="">Home</a></li>
+                        <li class="active">Contato</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- row FINISH -->
+        </div>
+        <!-- container FINISH -->
+    </div>
+    <!-- ^^ /page header -->
+
+    <div class="map-section">
+        <div id="mapid" class="gmap3"></div>
+    </div>
+
+
+    <!-- progress bar -->
+
+    <div class="full-section">
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-md-8 ">
+                    <div class="std-box">
+
+                        <div class="alert alert-danger alert-dismissable" id="error-msg">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i
+                                    class="fa fa-times"></i></button>
+                            <strong>Sorry!</strong> Some error occurred, please try again.
+                        </div>
+
+                        <div class="alert alert-success alert-dismissable" id="sucess-msg">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i
+                                    class="fa fa-times"></i></button>
+                            <strong>Thanks!</strong> Your message has been sent successfully.
+                        </div>
+
+                        <form id="contact" name="contact" method="post" novalidate="novalidate">
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name" class="control-label">Name
+                                                <span>(Required)</span></label>
+                                            <input type="text" name="name" id="name" required="" class="form-control"
+                                                   >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email" class="control-label">Email
+                                                <span>(Required)</span></label>
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                   required="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="subject" class="control-label">Subject</label>
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="message" class="control-label">Message <span>(Required)</span></label>
+                                            <textarea name="message" id="message" class="form-control"
+                                                      required="" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <input id="submit" type="submit" class="btn btn-primary" name="submit" value="Send">
+                            </fieldset>
+
+                        </form>
+
+
+                    </div>
+                    <!-- std box -->
+                </div>
+
+
+                <div class="col-md-4 ">
+                    <div class="left-icon-block">
+                        <i class="fa fa-map-marker"></i>
+
+                        <p>1221 North Washington Street <br/>
+                            Livingston, AL(Alabama) 35470 <br/>
+                            Freda M Carter</p>
+                    </div>
+
+                    <div class="left-icon-block">
+                        <i class="fa fa-envelope"></i>
+
+                        <p>yourmail@mail.com</p>
+                    </div>
+
+                    <div class="left-icon-block">
+                        <i class="fa fa-mobile"></i>
+
+                        <p>+555 786 67 987</p>
+                    </div>
+
+                    <div class="left-icon-block">
+                        <i class="fa fa-print"></i>
+
+                        <p>+555 786 67 987</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--
+====================================================
+ ^^^^^^^ main section FINISH
+====================================================
+ -->

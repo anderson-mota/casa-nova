@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
-@import url(CSS:../theme/infusion/assets/css/camera.css);
-@import url(CSS:../theme/infusion/assets/css/owl.carousel.css);
-@import url(CSS:../theme/infusion/assets/css/owl.theme.css);
-@import url(CSS:../theme/infusion/assets/css/animate.css);
 /* line 11, ../components/bootstrap-sass/lib/_normalize.scss */
 article,
 aside,
@@ -10108,6 +10104,4623 @@ td.visible-print {
   content: "";
 }
 
+/**************************
+*
+*	GENERAL
+*
+**************************/
+/* line 6, ../theme/infusion/assets/css/camera.css */
+.camera_wrap a, .camera_wrap img,
+.camera_wrap ol, .camera_wrap ul, .camera_wrap li,
+.camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
+.camera_thumbs_wrap a, .camera_thumbs_wrap img,
+.camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li,
+.camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+/* line 21, ../theme/infusion/assets/css/camera.css */
+.camera_wrap {
+  display: none;
+  float: left;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 27, ../theme/infusion/assets/css/camera.css */
+.camera_wrap img {
+  max-width: none !important;
+}
+
+/* line 30, ../theme/infusion/assets/css/camera.css */
+.camera_fakehover {
+  height: 100%;
+  min-height: 60px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 37, ../theme/infusion/assets/css/camera.css */
+.camera_wrap {
+  width: 100%;
+}
+
+/* line 40, ../theme/infusion/assets/css/camera.css */
+.camera_src {
+  display: none;
+}
+
+/* line 43, ../theme/infusion/assets/css/camera.css */
+.cameraCont, .cameraContents {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 49, ../theme/infusion/assets/css/camera.css */
+.cameraSlide {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 57, ../theme/infusion/assets/css/camera.css */
+.cameraContent {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 66, ../theme/infusion/assets/css/camera.css */
+.camera_target {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+/* line 78, ../theme/infusion/assets/css/camera.css */
+.camera_overlayer {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+/* line 89, ../theme/infusion/assets/css/camera.css */
+.camera_target_content {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+/* line 98, ../theme/infusion/assets/css/camera.css */
+.camera_target_content .camera_link {
+  background: url(../theme/infusion/assets/images/blank.gif);
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+/* line 104, ../theme/infusion/assets/css/camera.css */
+.camera_loader {
+  background: #fff url(../theme/infusion/assets/images/camera-loader.gif) no-repeat center;
+  background: rgba(255, 255, 255, 0.9) url(../theme/infusion/assets/images/camera-loader.gif) no-repeat center;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  height: 36px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  margin: -18px 0 0 -18px;
+  top: 50%;
+  width: 36px;
+  z-index: 3;
+}
+
+/* line 120, ../theme/infusion/assets/css/camera.css */
+.camera_bar {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+/* line 129, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_wrap.camera_left .camera_bar, .camera_thumbs_wrap.camera_right .camera_bar {
+  height: 100%;
+  position: absolute;
+  width: auto;
+}
+
+/* line 134, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_wrap.camera_bottom .camera_bar, .camera_thumbs_wrap.camera_top .camera_bar {
+  height: auto;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 139, ../theme/infusion/assets/css/camera.css */
+.camera_nav_cont {
+  height: 65px;
+  overflow: hidden;
+  position: absolute;
+  right: 9px;
+  top: 15px;
+  width: 120px;
+  z-index: 4;
+}
+
+/* line 148, ../theme/infusion/assets/css/camera.css */
+.camera_caption {
+  bottom: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 154, ../theme/infusion/assets/css/camera.css */
+.camera_caption > div {
+  padding: 10px 20px;
+}
+
+/* line 157, ../theme/infusion/assets/css/camera.css */
+.camerarelative {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 161, ../theme/infusion/assets/css/camera.css */
+.imgFake {
+  cursor: pointer;
+}
+
+/* line 164, ../theme/infusion/assets/css/camera.css */
+.camera_prevThumbs {
+  bottom: 4px;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  visibility: hidden;
+  width: 30px;
+  z-index: 10;
+}
+
+/* line 174, ../theme/infusion/assets/css/camera.css */
+.camera_prevThumbs div {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat -160px 0;
+  display: block;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+
+/* line 183, ../theme/infusion/assets/css/camera.css */
+.camera_nextThumbs {
+  bottom: 4px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  visibility: hidden;
+  width: 30px;
+  z-index: 10;
+}
+
+/* line 193, ../theme/infusion/assets/css/camera.css */
+.camera_nextThumbs div {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat -190px 0;
+  display: block;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+
+/* line 202, ../theme/infusion/assets/css/camera.css */
+.camera_command_wrap .hideNav {
+  display: none;
+}
+
+/* line 205, ../theme/infusion/assets/css/camera.css */
+.camera_command_wrap {
+  left: 0;
+  position: relative;
+  right: 0;
+  z-index: 4;
+}
+
+/* line 211, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* line 217, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  height: 16px;
+  margin: 20px 5px;
+  position: relative;
+  text-align: left;
+  text-indent: -9999px;
+  width: 16px;
+}
+
+/* line 230, ../theme/infusion/assets/css/camera.css */
+.camera_commands_emboss .camera_pag .camera_pag_ul li {
+  -moz-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 241, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li > span {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 8px;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 4px;
+  width: 8px;
+}
+
+/* line 252, ../theme/infusion/assets/css/camera.css */
+.camera_commands_emboss .camera_pag .camera_pag_ul li:hover > span {
+  -moz-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 263, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
+  -moz-box-shadow: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+}
+
+/* line 268, ../theme/infusion/assets/css/camera.css */
+.camera_pag_ul li img {
+  display: none;
+  position: absolute;
+}
+
+/* line 272, ../theme/infusion/assets/css/camera.css */
+.camera_pag_ul .thumb_arrow {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid;
+  top: 0;
+  left: 50%;
+  margin-left: -4px;
+  position: absolute;
+}
+
+/* line 281, ../theme/infusion/assets/css/camera.css */
+.camera_prev, .camera_next, .camera_commands {
+  cursor: pointer;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+/* line 291, ../theme/infusion/assets/css/camera.css */
+.camera_prev {
+  left: 0;
+}
+
+/* line 294, ../theme/infusion/assets/css/camera.css */
+.camera_prev > span {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat 0 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 300, ../theme/infusion/assets/css/camera.css */
+.camera_next {
+  right: 0;
+}
+
+/* line 303, ../theme/infusion/assets/css/camera.css */
+.camera_next > span {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat -40px 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 309, ../theme/infusion/assets/css/camera.css */
+.camera_commands {
+  right: 41px;
+}
+
+/* line 312, ../theme/infusion/assets/css/camera.css */
+.camera_commands > .camera_play {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat -80px 0;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 317, ../theme/infusion/assets/css/camera.css */
+.camera_commands > .camera_stop {
+  background: url(../theme/infusion/assets/images/camera_skins.png) no-repeat -120px 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 323, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  height: 16px;
+  margin: 20px 5px;
+  position: relative;
+  text-indent: -9999px;
+  width: 16px;
+}
+
+/* line 335, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont {
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* line 346, ../theme/infusion/assets/css/camera.css */
+.camera_commands_emboss .camera_thumbs_cont {
+  -moz-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 357, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont > div {
+  float: left;
+  width: 100%;
+}
+
+/* line 361, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont ul {
+  overflow: hidden;
+  padding: 3px 4px 8px;
+  position: relative;
+  text-align: center;
+}
+
+/* line 367, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont ul li {
+  display: inline;
+  padding: 0 4px;
+}
+
+/* line 371, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont ul li > img {
+  border: 1px solid;
+  cursor: pointer;
+  margin-top: 5px;
+  vertical-align: bottom;
+}
+
+/* line 377, ../theme/infusion/assets/css/camera.css */
+.camera_clear {
+  display: block;
+  clear: both;
+}
+
+/* line 381, ../theme/infusion/assets/css/camera.css */
+.showIt {
+  display: none;
+}
+
+/* line 384, ../theme/infusion/assets/css/camera.css */
+.camera_clear {
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: -1px 0 25px;
+  position: relative;
+}
+
+/**************************
+*
+*	COLORS & SKINS
+*
+**************************/
+/* line 396, ../theme/infusion/assets/css/camera.css */
+.pattern_1 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay1.png) repeat;
+}
+
+/* line 399, ../theme/infusion/assets/css/camera.css */
+.pattern_2 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay2.png) repeat;
+}
+
+/* line 402, ../theme/infusion/assets/css/camera.css */
+.pattern_3 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay3.png) repeat;
+}
+
+/* line 405, ../theme/infusion/assets/css/camera.css */
+.pattern_4 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay4.png) repeat;
+}
+
+/* line 408, ../theme/infusion/assets/css/camera.css */
+.pattern_5 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay5.png) repeat;
+}
+
+/* line 411, ../theme/infusion/assets/css/camera.css */
+.pattern_6 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay6.png) repeat;
+}
+
+/* line 414, ../theme/infusion/assets/css/camera.css */
+.pattern_7 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay7.png) repeat;
+}
+
+/* line 417, ../theme/infusion/assets/css/camera.css */
+.pattern_8 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay8.png) repeat;
+}
+
+/* line 420, ../theme/infusion/assets/css/camera.css */
+.pattern_9 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay9.png) repeat;
+}
+
+/* line 423, ../theme/infusion/assets/css/camera.css */
+.pattern_10 .camera_overlayer {
+  background: url(../theme/infusion/assets/images/patterns/overlay10.png) repeat;
+}
+
+/* line 426, ../theme/infusion/assets/css/camera.css */
+.camera_caption {
+  color: #fff;
+}
+
+/* line 429, ../theme/infusion/assets/css/camera.css */
+.camera_caption > div {
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 433, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li {
+  background: #b7b7b7;
+}
+
+/* line 436, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li:hover > span {
+  background: #b7b7b7;
+}
+
+/* line 439, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
+  background: #434648;
+}
+
+/* line 442, ../theme/infusion/assets/css/camera.css */
+.camera_pag_ul li img {
+  border: 4px solid #e6e6e6;
+  -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* line 448, ../theme/infusion/assets/css/camera.css */
+.camera_pag_ul .thumb_arrow {
+  border-top-color: #e6e6e6;
+}
+
+/* line 451, ../theme/infusion/assets/css/camera.css */
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {
+  background: #d8d8d8;
+  background: rgba(216, 216, 216, 0.85);
+}
+
+/* line 455, ../theme/infusion/assets/css/camera.css */
+.camera_wrap .camera_pag .camera_pag_ul li {
+  background: #b7b7b7;
+}
+
+/* line 458, ../theme/infusion/assets/css/camera.css */
+.camera_thumbs_cont ul li > img {
+  border-color: 1px solid #000;
+}
+
+/*AMBER SKIN*/
+/* line 462, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_prevThumbs div {
+  background-position: -160px -160px;
+}
+
+/* line 465, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_nextThumbs div {
+  background-position: -190px -160px;
+}
+
+/* line 468, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_prev > span {
+  background-position: 0 -160px;
+}
+
+/* line 471, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_next > span {
+  background-position: -40px -160px;
+}
+
+/* line 474, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_commands > .camera_play {
+  background-position: -80px -160px;
+}
+
+/* line 477, ../theme/infusion/assets/css/camera.css */
+.camera_amber_skin .camera_commands > .camera_stop {
+  background-position: -120px -160px;
+}
+
+/*ASH SKIN*/
+/* line 481, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_prevThumbs div {
+  background-position: -160px -200px;
+}
+
+/* line 484, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_nextThumbs div {
+  background-position: -190px -200px;
+}
+
+/* line 487, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_prev > span {
+  background-position: 0 -200px;
+}
+
+/* line 490, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_next > span {
+  background-position: -40px -200px;
+}
+
+/* line 493, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_commands > .camera_play {
+  background-position: -80px -200px;
+}
+
+/* line 496, ../theme/infusion/assets/css/camera.css */
+.camera_ash_skin .camera_commands > .camera_stop {
+  background-position: -120px -200px;
+}
+
+/*AZURE SKIN*/
+/* line 500, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_prevThumbs div {
+  background-position: -160px -240px;
+}
+
+/* line 503, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_nextThumbs div {
+  background-position: -190px -240px;
+}
+
+/* line 506, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_prev > span {
+  background-position: 0 -240px;
+}
+
+/* line 509, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_next > span {
+  background-position: -40px -240px;
+}
+
+/* line 512, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_commands > .camera_play {
+  background-position: -80px -240px;
+}
+
+/* line 515, ../theme/infusion/assets/css/camera.css */
+.camera_azure_skin .camera_commands > .camera_stop {
+  background-position: -120px -240px;
+}
+
+/*BEIGE SKIN*/
+/* line 519, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_prevThumbs div {
+  background-position: -160px -120px;
+}
+
+/* line 522, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_nextThumbs div {
+  background-position: -190px -120px;
+}
+
+/* line 525, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_prev > span {
+  background-position: 0 -120px;
+}
+
+/* line 528, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_next > span {
+  background-position: -40px -120px;
+}
+
+/* line 531, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_commands > .camera_play {
+  background-position: -80px -120px;
+}
+
+/* line 534, ../theme/infusion/assets/css/camera.css */
+.camera_beige_skin .camera_commands > .camera_stop {
+  background-position: -120px -120px;
+}
+
+/*BLACK SKIN*/
+/* line 538, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_prevThumbs div {
+  background-position: -160px -40px;
+}
+
+/* line 541, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_nextThumbs div {
+  background-position: -190px -40px;
+}
+
+/* line 544, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_prev > span {
+  background-position: 0 -40px;
+}
+
+/* line 547, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_next > span {
+  background-position: -40px -40px;
+}
+
+/* line 550, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_commands > .camera_play {
+  background-position: -80px -40px;
+}
+
+/* line 553, ../theme/infusion/assets/css/camera.css */
+.camera_black_skin .camera_commands > .camera_stop {
+  background-position: -120px -40px;
+}
+
+/*BLUE SKIN*/
+/* line 557, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_prevThumbs div {
+  background-position: -160px -280px;
+}
+
+/* line 560, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_nextThumbs div {
+  background-position: -190px -280px;
+}
+
+/* line 563, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_prev > span {
+  background-position: 0 -280px;
+}
+
+/* line 566, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_next > span {
+  background-position: -40px -280px;
+}
+
+/* line 569, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_commands > .camera_play {
+  background-position: -80px -280px;
+}
+
+/* line 572, ../theme/infusion/assets/css/camera.css */
+.camera_blue_skin .camera_commands > .camera_stop {
+  background-position: -120px -280px;
+}
+
+/*BROWN SKIN*/
+/* line 576, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_prevThumbs div {
+  background-position: -160px -320px;
+}
+
+/* line 579, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_nextThumbs div {
+  background-position: -190px -320px;
+}
+
+/* line 582, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_prev > span {
+  background-position: 0 -320px;
+}
+
+/* line 585, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_next > span {
+  background-position: -40px -320px;
+}
+
+/* line 588, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_commands > .camera_play {
+  background-position: -80px -320px;
+}
+
+/* line 591, ../theme/infusion/assets/css/camera.css */
+.camera_brown_skin .camera_commands > .camera_stop {
+  background-position: -120px -320px;
+}
+
+/*BURGUNDY SKIN*/
+/* line 595, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_prevThumbs div {
+  background-position: -160px -360px;
+}
+
+/* line 598, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_nextThumbs div {
+  background-position: -190px -360px;
+}
+
+/* line 601, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_prev > span {
+  background-position: 0 -360px;
+}
+
+/* line 604, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_next > span {
+  background-position: -40px -360px;
+}
+
+/* line 607, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_commands > .camera_play {
+  background-position: -80px -360px;
+}
+
+/* line 610, ../theme/infusion/assets/css/camera.css */
+.camera_burgundy_skin .camera_commands > .camera_stop {
+  background-position: -120px -360px;
+}
+
+/*CHARCOAL SKIN*/
+/* line 614, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_prevThumbs div {
+  background-position: -160px -400px;
+}
+
+/* line 617, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_nextThumbs div {
+  background-position: -190px -400px;
+}
+
+/* line 620, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_prev > span {
+  background-position: 0 -400px;
+}
+
+/* line 623, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_next > span {
+  background-position: -40px -400px;
+}
+
+/* line 626, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_commands > .camera_play {
+  background-position: -80px -400px;
+}
+
+/* line 629, ../theme/infusion/assets/css/camera.css */
+.camera_charcoal_skin .camera_commands > .camera_stop {
+  background-position: -120px -400px;
+}
+
+/*CHOCOLATE SKIN*/
+/* line 633, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_prevThumbs div {
+  background-position: -160px -440px;
+}
+
+/* line 636, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_nextThumbs div {
+  background-position: -190px -440px;
+}
+
+/* line 639, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_prev > span {
+  background-position: 0 -440px;
+}
+
+/* line 642, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_next > span {
+  background-position: -40px -440px;
+}
+
+/* line 645, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_commands > .camera_play {
+  background-position: -80px -440px;
+}
+
+/* line 648, ../theme/infusion/assets/css/camera.css */
+.camera_chocolate_skin .camera_commands > .camera_stop {
+  background-position: -120px -440px;
+}
+
+/*COFFEE SKIN*/
+/* line 652, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_prevThumbs div {
+  background-position: -160px -480px;
+}
+
+/* line 655, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_nextThumbs div {
+  background-position: -190px -480px;
+}
+
+/* line 658, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_prev > span {
+  background-position: 0 -480px;
+}
+
+/* line 661, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_next > span {
+  background-position: -40px -480px;
+}
+
+/* line 664, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_commands > .camera_play {
+  background-position: -80px -480px;
+}
+
+/* line 667, ../theme/infusion/assets/css/camera.css */
+.camera_coffee_skin .camera_commands > .camera_stop {
+  background-position: -120px -480px;
+}
+
+/*CYAN SKIN*/
+/* line 671, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_prevThumbs div {
+  background-position: -160px -520px;
+}
+
+/* line 674, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_nextThumbs div {
+  background-position: -190px -520px;
+}
+
+/* line 677, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_prev > span {
+  background-position: 0 -520px;
+}
+
+/* line 680, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_next > span {
+  background-position: -40px -520px;
+}
+
+/* line 683, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_commands > .camera_play {
+  background-position: -80px -520px;
+}
+
+/* line 686, ../theme/infusion/assets/css/camera.css */
+.camera_cyan_skin .camera_commands > .camera_stop {
+  background-position: -120px -520px;
+}
+
+/*FUCHSIA SKIN*/
+/* line 690, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_prevThumbs div {
+  background-position: -160px -560px;
+}
+
+/* line 693, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_nextThumbs div {
+  background-position: -190px -560px;
+}
+
+/* line 696, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_prev > span {
+  background-position: 0 -560px;
+}
+
+/* line 699, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_next > span {
+  background-position: -40px -560px;
+}
+
+/* line 702, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_commands > .camera_play {
+  background-position: -80px -560px;
+}
+
+/* line 705, ../theme/infusion/assets/css/camera.css */
+.camera_fuchsia_skin .camera_commands > .camera_stop {
+  background-position: -120px -560px;
+}
+
+/*GOLD SKIN*/
+/* line 709, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_prevThumbs div {
+  background-position: -160px -600px;
+}
+
+/* line 712, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_nextThumbs div {
+  background-position: -190px -600px;
+}
+
+/* line 715, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_prev > span {
+  background-position: 0 -600px;
+}
+
+/* line 718, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_next > span {
+  background-position: -40px -600px;
+}
+
+/* line 721, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_commands > .camera_play {
+  background-position: -80px -600px;
+}
+
+/* line 724, ../theme/infusion/assets/css/camera.css */
+.camera_gold_skin .camera_commands > .camera_stop {
+  background-position: -120px -600px;
+}
+
+/*GREEN SKIN*/
+/* line 728, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_prevThumbs div {
+  background-position: -160px -640px;
+}
+
+/* line 731, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_nextThumbs div {
+  background-position: -190px -640px;
+}
+
+/* line 734, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_prev > span {
+  background-position: 0 -640px;
+}
+
+/* line 737, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_next > span {
+  background-position: -40px -640px;
+}
+
+/* line 740, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_commands > .camera_play {
+  background-position: -80px -640px;
+}
+
+/* line 743, ../theme/infusion/assets/css/camera.css */
+.camera_green_skin .camera_commands > .camera_stop {
+  background-position: -120px -640px;
+}
+
+/*GREY SKIN*/
+/* line 747, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_prevThumbs div {
+  background-position: -160px -680px;
+}
+
+/* line 750, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_nextThumbs div {
+  background-position: -190px -680px;
+}
+
+/* line 753, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_prev > span {
+  background-position: 0 -680px;
+}
+
+/* line 756, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_next > span {
+  background-position: -40px -680px;
+}
+
+/* line 759, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_commands > .camera_play {
+  background-position: -80px -680px;
+}
+
+/* line 762, ../theme/infusion/assets/css/camera.css */
+.camera_grey_skin .camera_commands > .camera_stop {
+  background-position: -120px -680px;
+}
+
+/*INDIGO SKIN*/
+/* line 766, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_prevThumbs div {
+  background-position: -160px -720px;
+}
+
+/* line 769, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_nextThumbs div {
+  background-position: -190px -720px;
+}
+
+/* line 772, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_prev > span {
+  background-position: 0 -720px;
+}
+
+/* line 775, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_next > span {
+  background-position: -40px -720px;
+}
+
+/* line 778, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_commands > .camera_play {
+  background-position: -80px -720px;
+}
+
+/* line 781, ../theme/infusion/assets/css/camera.css */
+.camera_indigo_skin .camera_commands > .camera_stop {
+  background-position: -120px -720px;
+}
+
+/*KHAKI SKIN*/
+/* line 785, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_prevThumbs div {
+  background-position: -160px -760px;
+}
+
+/* line 788, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_nextThumbs div {
+  background-position: -190px -760px;
+}
+
+/* line 791, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_prev > span {
+  background-position: 0 -760px;
+}
+
+/* line 794, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_next > span {
+  background-position: -40px -760px;
+}
+
+/* line 797, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_commands > .camera_play {
+  background-position: -80px -760px;
+}
+
+/* line 800, ../theme/infusion/assets/css/camera.css */
+.camera_khaki_skin .camera_commands > .camera_stop {
+  background-position: -120px -760px;
+}
+
+/*LIME SKIN*/
+/* line 804, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_prevThumbs div {
+  background-position: -160px -800px;
+}
+
+/* line 807, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_nextThumbs div {
+  background-position: -190px -800px;
+}
+
+/* line 810, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_prev > span {
+  background-position: 0 -800px;
+}
+
+/* line 813, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_next > span {
+  background-position: -40px -800px;
+}
+
+/* line 816, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_commands > .camera_play {
+  background-position: -80px -800px;
+}
+
+/* line 819, ../theme/infusion/assets/css/camera.css */
+.camera_lime_skin .camera_commands > .camera_stop {
+  background-position: -120px -800px;
+}
+
+/*MAGENTA SKIN*/
+/* line 823, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_prevThumbs div {
+  background-position: -160px -840px;
+}
+
+/* line 826, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_nextThumbs div {
+  background-position: -190px -840px;
+}
+
+/* line 829, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_prev > span {
+  background-position: 0 -840px;
+}
+
+/* line 832, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_next > span {
+  background-position: -40px -840px;
+}
+
+/* line 835, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_commands > .camera_play {
+  background-position: -80px -840px;
+}
+
+/* line 838, ../theme/infusion/assets/css/camera.css */
+.camera_magenta_skin .camera_commands > .camera_stop {
+  background-position: -120px -840px;
+}
+
+/*MAROON SKIN*/
+/* line 842, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_prevThumbs div {
+  background-position: -160px -880px;
+}
+
+/* line 845, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_nextThumbs div {
+  background-position: -190px -880px;
+}
+
+/* line 848, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_prev > span {
+  background-position: 0 -880px;
+}
+
+/* line 851, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_next > span {
+  background-position: -40px -880px;
+}
+
+/* line 854, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_commands > .camera_play {
+  background-position: -80px -880px;
+}
+
+/* line 857, ../theme/infusion/assets/css/camera.css */
+.camera_maroon_skin .camera_commands > .camera_stop {
+  background-position: -120px -880px;
+}
+
+/*ORANGE SKIN*/
+/* line 861, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_prevThumbs div {
+  background-position: -160px -920px;
+}
+
+/* line 864, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_nextThumbs div {
+  background-position: -190px -920px;
+}
+
+/* line 867, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_prev > span {
+  background-position: 0 -920px;
+}
+
+/* line 870, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_next > span {
+  background-position: -40px -920px;
+}
+
+/* line 873, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_commands > .camera_play {
+  background-position: -80px -920px;
+}
+
+/* line 876, ../theme/infusion/assets/css/camera.css */
+.camera_orange_skin .camera_commands > .camera_stop {
+  background-position: -120px -920px;
+}
+
+/*OLIVE SKIN*/
+/* line 880, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_prevThumbs div {
+  background-position: -160px -1080px;
+}
+
+/* line 883, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_nextThumbs div {
+  background-position: -190px -1080px;
+}
+
+/* line 886, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_prev > span {
+  background-position: 0 -1080px;
+}
+
+/* line 889, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_next > span {
+  background-position: -40px -1080px;
+}
+
+/* line 892, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_commands > .camera_play {
+  background-position: -80px -1080px;
+}
+
+/* line 895, ../theme/infusion/assets/css/camera.css */
+.camera_olive_skin .camera_commands > .camera_stop {
+  background-position: -120px -1080px;
+}
+
+/*PINK SKIN*/
+/* line 899, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_prevThumbs div {
+  background-position: -160px -960px;
+}
+
+/* line 902, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_nextThumbs div {
+  background-position: -190px -960px;
+}
+
+/* line 905, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_prev > span {
+  background-position: 0 -960px;
+}
+
+/* line 908, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_next > span {
+  background-position: -40px -960px;
+}
+
+/* line 911, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_commands > .camera_play {
+  background-position: -80px -960px;
+}
+
+/* line 914, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_commands > .camera_stop {
+  background-position: -120px -960px;
+}
+
+/*PISTACHIO SKIN*/
+/* line 918, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_prevThumbs div {
+  background-position: -160px -1040px;
+}
+
+/* line 921, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_nextThumbs div {
+  background-position: -190px -1040px;
+}
+
+/* line 924, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_prev > span {
+  background-position: 0 -1040px;
+}
+
+/* line 927, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_next > span {
+  background-position: -40px -1040px;
+}
+
+/* line 930, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_commands > .camera_play {
+  background-position: -80px -1040px;
+}
+
+/* line 933, ../theme/infusion/assets/css/camera.css */
+.camera_pistachio_skin .camera_commands > .camera_stop {
+  background-position: -120px -1040px;
+}
+
+/*PINK SKIN*/
+/* line 937, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_prevThumbs div {
+  background-position: -160px -80px;
+}
+
+/* line 940, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_nextThumbs div {
+  background-position: -190px -80px;
+}
+
+/* line 943, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_prev > span {
+  background-position: 0 -80px;
+}
+
+/* line 946, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_next > span {
+  background-position: -40px -80px;
+}
+
+/* line 949, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_commands > .camera_play {
+  background-position: -80px -80px;
+}
+
+/* line 952, ../theme/infusion/assets/css/camera.css */
+.camera_pink_skin .camera_commands > .camera_stop {
+  background-position: -120px -80px;
+}
+
+/*RED SKIN*/
+/* line 956, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_prevThumbs div {
+  background-position: -160px -1000px;
+}
+
+/* line 959, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_nextThumbs div {
+  background-position: -190px -1000px;
+}
+
+/* line 962, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_prev > span {
+  background-position: 0 -1000px;
+}
+
+/* line 965, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_next > span {
+  background-position: -40px -1000px;
+}
+
+/* line 968, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_commands > .camera_play {
+  background-position: -80px -1000px;
+}
+
+/* line 971, ../theme/infusion/assets/css/camera.css */
+.camera_red_skin .camera_commands > .camera_stop {
+  background-position: -120px -1000px;
+}
+
+/*TANGERINE SKIN*/
+/* line 975, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_prevThumbs div {
+  background-position: -160px -1120px;
+}
+
+/* line 978, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_nextThumbs div {
+  background-position: -190px -1120px;
+}
+
+/* line 981, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_prev > span {
+  background-position: 0 -1120px;
+}
+
+/* line 984, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_next > span {
+  background-position: -40px -1120px;
+}
+
+/* line 987, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_commands > .camera_play {
+  background-position: -80px -1120px;
+}
+
+/* line 990, ../theme/infusion/assets/css/camera.css */
+.camera_tangerine_skin .camera_commands > .camera_stop {
+  background-position: -120px -1120px;
+}
+
+/*TURQUOISE SKIN*/
+/* line 994, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_prevThumbs div {
+  background-position: -160px -1160px;
+}
+
+/* line 997, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_nextThumbs div {
+  background-position: -190px -1160px;
+}
+
+/* line 1000, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_prev > span {
+  background-position: 0 -1160px;
+}
+
+/* line 1003, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_next > span {
+  background-position: -40px -1160px;
+}
+
+/* line 1006, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_commands > .camera_play {
+  background-position: -80px -1160px;
+}
+
+/* line 1009, ../theme/infusion/assets/css/camera.css */
+.camera_turquoise_skin .camera_commands > .camera_stop {
+  background-position: -120px -1160px;
+}
+
+/*VIOLET SKIN*/
+/* line 1013, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_prevThumbs div {
+  background-position: -160px -1200px;
+}
+
+/* line 1016, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_nextThumbs div {
+  background-position: -190px -1200px;
+}
+
+/* line 1019, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_prev > span {
+  background-position: 0 -1200px;
+}
+
+/* line 1022, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_next > span {
+  background-position: -40px -1200px;
+}
+
+/* line 1025, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_commands > .camera_play {
+  background-position: -80px -1200px;
+}
+
+/* line 1028, ../theme/infusion/assets/css/camera.css */
+.camera_violet_skin .camera_commands > .camera_stop {
+  background-position: -120px -1200px;
+}
+
+/*WHITE SKIN*/
+/* line 1032, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_prevThumbs div {
+  background-position: -160px -80px;
+}
+
+/* line 1035, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_nextThumbs div {
+  background-position: -190px -80px;
+}
+
+/* line 1038, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_prev > span {
+  background-position: 0 -80px;
+}
+
+/* line 1041, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_next > span {
+  background-position: -40px -80px;
+}
+
+/* line 1044, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_commands > .camera_play {
+  background-position: -80px -80px;
+}
+
+/* line 1047, ../theme/infusion/assets/css/camera.css */
+.camera_white_skin .camera_commands > .camera_stop {
+  background-position: -120px -80px;
+}
+
+/*YELLOW SKIN*/
+/* line 1051, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_prevThumbs div {
+  background-position: -160px -1240px;
+}
+
+/* line 1054, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_nextThumbs div {
+  background-position: -190px -1240px;
+}
+
+/* line 1057, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_prev > span {
+  background-position: 0 -1240px;
+}
+
+/* line 1060, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_next > span {
+  background-position: -40px -1240px;
+}
+
+/* line 1063, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_commands > .camera_play {
+  background-position: -80px -1240px;
+}
+
+/* line 1066, ../theme/infusion/assets/css/camera.css */
+.camera_yellow_skin .camera_commands > .camera_stop {
+  background-position: -120px -1240px;
+}
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+/* clearfix */
+/* line 7, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* display none until init */
+/* line 16, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+
+/* line 22, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+/* line 27, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* line 32, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+/* line 40, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-item {
+  float: left;
+  /*max-width: 385px*/
+}
+
+/* line 44, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+
+/* line 48, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* mouse grab icon */
+/* line 58, ../theme/infusion/assets/css/owl.carousel.css */
+.grabbing {
+  cursor: url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+/* line 63, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+/* CSS3 Transitions */
+/* line 75, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-origin {
+  -webkit-perspective: 1200px;
+  -webkit-perspective-origin-x: 50%;
+  -webkit-perspective-origin-y: 50%;
+  -moz-perspective: 1200px;
+  -moz-perspective-origin-x: 50%;
+  -moz-perspective-origin-y: 50%;
+  perspective: 1200px;
+}
+
+/* fade */
+/* line 85, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+
+/* line 91, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;
+  animation: fadeIn .7s both ease;
+}
+
+/* backSlide */
+/* line 97, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-backSlide-out {
+  -webkit-animation: backSlideOut 1s both ease;
+  -moz-animation: backSlideOut 1s both ease;
+  animation: backSlideOut 1s both ease;
+}
+
+/* line 102, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-backSlide-in {
+  -webkit-animation: backSlideIn 1s both ease;
+  -moz-animation: backSlideIn 1s both ease;
+  animation: backSlideIn 1s both ease;
+}
+
+/* goDown */
+/* line 108, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-goDown-out {
+  -webkit-animation: scaleToFade .7s ease both;
+  -moz-animation: scaleToFade .7s ease both;
+  animation: scaleToFade .7s ease both;
+}
+
+/* line 113, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-goDown-in {
+  -webkit-animation: goDown .6s ease both;
+  -moz-animation: goDown .6s ease both;
+  animation: goDown .6s ease both;
+}
+
+/* scaleUp */
+/* line 119, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-fadeUp-in {
+  -webkit-animation: scaleUpFrom .5s ease both;
+  -moz-animation: scaleUpFrom .5s ease both;
+  animation: scaleUpFrom .5s ease both;
+}
+
+/* line 125, ../theme/infusion/assets/css/owl.carousel.css */
+.owl-fadeUp-out {
+  -webkit-animation: scaleUpTo .5s ease both;
+  -moz-animation: scaleUpTo .5s ease both;
+  animation: scaleUpTo .5s ease both;
+}
+
+/* Keyframes */
+/*empty*/
+@-webkit-keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes backSlideOut {
+  25% {
+    opacity: .5;
+    -webkit-transform: translateZ(-500px);
+  }
+  75% {
+    opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(-200%);
+  }
+  100% {
+    opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(-200%);
+  }
+}
+@-moz-keyframes backSlideOut {
+  25% {
+    opacity: .5;
+    -moz-transform: translateZ(-500px);
+  }
+  75% {
+    opacity: .5;
+    -moz-transform: translateZ(-500px) translateX(-200%);
+  }
+  100% {
+    opacity: .5;
+    -moz-transform: translateZ(-500px) translateX(-200%);
+  }
+}
+@keyframes backSlideOut {
+  25% {
+    opacity: .5;
+    transform: translateZ(-500px);
+  }
+  75% {
+    opacity: .5;
+    transform: translateZ(-500px) translateX(-200%);
+  }
+  100% {
+    opacity: .5;
+    transform: translateZ(-500px) translateX(-200%);
+  }
+}
+@-webkit-keyframes backSlideIn {
+  0%, 25% {
+    opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(200%);
+  }
+  75% {
+    opacity: .5;
+    -webkit-transform: translateZ(-500px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0) translateX(0);
+  }
+}
+@-moz-keyframes backSlideIn {
+  0%, 25% {
+    opacity: .5;
+    -moz-transform: translateZ(-500px) translateX(200%);
+  }
+  75% {
+    opacity: .5;
+    -moz-transform: translateZ(-500px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateZ(0) translateX(0);
+  }
+}
+@keyframes backSlideIn {
+  0%, 25% {
+    opacity: .5;
+    transform: translateZ(-500px) translateX(200%);
+  }
+  75% {
+    opacity: .5;
+    transform: translateZ(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0) translateX(0);
+  }
+}
+@-webkit-keyframes scaleToFade {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+  }
+}
+@-moz-keyframes scaleToFade {
+  to {
+    opacity: 0;
+    -moz-transform: scale(0.8);
+  }
+}
+@keyframes scaleToFade {
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+@-webkit-keyframes goDown {
+  from {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes goDown {
+  from {
+    -moz-transform: translateY(-100%);
+  }
+}
+@keyframes goDown {
+  from {
+    transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+  }
+}
+@-moz-keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+    -moz-transform: scale(1.5);
+  }
+}
+@keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes scaleUpTo {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+  }
+}
+@-moz-keyframes scaleUpTo {
+  to {
+    opacity: 0;
+    -moz-transform: scale(1.5);
+  }
+}
+@keyframes scaleUpTo {
+  to {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.24
+*/
+/* line 6, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+/* line 13, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+  margin: 5px;
+  line-height: 48px;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  width: 48px;
+  height: 48px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #869791;
+  margin-top: -50px;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+/* line 40, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0px;
+}
+
+/* line 44, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0px;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+/* line 49, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* line 55, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme:hover .owl-controls .owl-buttons div {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 59, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 62, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover:after {
+  background: #fff;
+}
+
+/* Styling Pagination*/
+/* line 69, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+}
+
+/* line 74, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791;
+}
+
+/* line 87, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+/* line 95, ../theme/infusion/assets/css/owl.theme.css */
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* preloading images */
+/* line 107, ../theme/infusion/assets/css/owl.theme.css */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/* line 16, ../theme/infusion/assets/css/animate.css */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 23, ../theme/infusion/assets/css/animate.css */
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* line 65, ../theme/infusion/assets/css/animate.css */
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+/* line 90, ../theme/infusion/assets/css/animate.css */
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* line 134, ../theme/infusion/assets/css/animate.css */
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  30% {
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  30% {
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+    -ms-transform: scaleX(1.25) scaleY(0.75);
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+    -ms-transform: scaleX(0.75) scaleY(1.25);
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+    -ms-transform: scaleX(1.15) scaleY(0.85);
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* line 198, ../theme/infusion/assets/css/animate.css */
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+/* line 240, ../theme/infusion/assets/css/animate.css */
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+/* line 304, ../theme/infusion/assets/css/animate.css */
+.swing {
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    -ms-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    -ms-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+/* line 371, ../theme/infusion/assets/css/animate.css */
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+    transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+    transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+    transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+@keyframes wobble {
+  0% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+    -ms-transform: translateX(-25%) rotate(-5deg);
+    transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+    -ms-transform: translateX(20%) rotate(3deg);
+    transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+    -ms-transform: translateX(-15%) rotate(-3deg);
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+    -ms-transform: translateX(10%) rotate(2deg);
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+    -ms-transform: translateX(-5%) rotate(-1deg);
+    transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+/* line 459, ../theme/infusion/assets/css/animate.css */
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+}
+
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* line 518, ../theme/infusion/assets/css/animate.css */
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 575, ../theme/infusion/assets/css/animate.css */
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+  80% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+  80% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 632, ../theme/infusion/assets/css/animate.css */
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+@-webkit-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  80% {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 689, ../theme/infusion/assets/css/animate.css */
+.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+@-webkit-keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  80% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  80% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 746, ../theme/infusion/assets/css/animate.css */
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+@-webkit-keyframes bounceOut {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+}
+@keyframes bounceOut {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+}
+/* line 803, ../theme/infusion/assets/css/animate.css */
+.bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
+
+@-webkit-keyframes bounceOutDown {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+@keyframes bounceOutDown {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+/* line 849, ../theme/infusion/assets/css/animate.css */
+.bounceOutDown {
+  -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
+}
+
+@-webkit-keyframes bounceOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+@keyframes bounceOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+/* line 895, ../theme/infusion/assets/css/animate.css */
+.bounceOutLeft {
+  -webkit-animation-name: bounceOutLeft;
+  animation-name: bounceOutLeft;
+}
+
+@-webkit-keyframes bounceOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+@keyframes bounceOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+/* line 941, ../theme/infusion/assets/css/animate.css */
+.bounceOutRight {
+  -webkit-animation-name: bounceOutRight;
+  animation-name: bounceOutRight;
+}
+
+@-webkit-keyframes bounceOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+@keyframes bounceOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+/* line 987, ../theme/infusion/assets/css/animate.css */
+.bounceOutUp {
+  -webkit-animation-name: bounceOutUp;
+  animation-name: bounceOutUp;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 1012, ../theme/infusion/assets/css/animate.css */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 1047, ../theme/infusion/assets/css/animate.css */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 1082, ../theme/infusion/assets/css/animate.css */
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 1117, ../theme/infusion/assets/css/animate.css */
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 1152, ../theme/infusion/assets/css/animate.css */
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 1187, ../theme/infusion/assets/css/animate.css */
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 1222, ../theme/infusion/assets/css/animate.css */
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 1257, ../theme/infusion/assets/css/animate.css */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 1292, ../theme/infusion/assets/css/animate.css */
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* line 1317, ../theme/infusion/assets/css/animate.css */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+/* line 1352, ../theme/infusion/assets/css/animate.css */
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+
+@-webkit-keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+@keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+/* line 1387, ../theme/infusion/assets/css/animate.css */
+.fadeOutDownBig {
+  -webkit-animation-name: fadeOutDownBig;
+  animation-name: fadeOutDownBig;
+}
+
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+/* line 1422, ../theme/infusion/assets/css/animate.css */
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+@-webkit-keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+@keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+/* line 1457, ../theme/infusion/assets/css/animate.css */
+.fadeOutLeftBig {
+  -webkit-animation-name: fadeOutLeftBig;
+  animation-name: fadeOutLeftBig;
+}
+
+@-webkit-keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+/* line 1492, ../theme/infusion/assets/css/animate.css */
+.fadeOutRight {
+  -webkit-animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
+}
+
+@-webkit-keyframes fadeOutRightBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+@keyframes fadeOutRightBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+/* line 1527, ../theme/infusion/assets/css/animate.css */
+.fadeOutRightBig {
+  -webkit-animation-name: fadeOutRightBig;
+  animation-name: fadeOutRightBig;
+}
+
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+/* line 1562, ../theme/infusion/assets/css/animate.css */
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
+@-webkit-keyframes fadeOutUpBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+@keyframes fadeOutUpBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+/* line 1597, ../theme/infusion/assets/css/animate.css */
+.fadeOutUpBig {
+  -webkit-animation-name: fadeOutUpBig;
+  animation-name: fadeOutUpBig;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  40% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  80% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  40% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  80% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+/* line 1681, ../theme/infusion/assets/css/animate.css */
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+@-webkit-keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+    transform: perspective(400px) rotateX(-10deg);
+  }
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+@keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+    -ms-transform: perspective(400px) rotateX(-10deg);
+    transform: perspective(400px) rotateX(-10deg);
+  }
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    -ms-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+/* line 1741, ../theme/infusion/assets/css/animate.css */
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+
+@-webkit-keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateY(-10deg);
+    transform: perspective(400px) rotateY(-10deg);
+  }
+  70% {
+    -webkit-transform: perspective(400px) rotateY(10deg);
+    transform: perspective(400px) rotateY(10deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    -ms-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateY(-10deg);
+    -ms-transform: perspective(400px) rotateY(-10deg);
+    transform: perspective(400px) rotateY(-10deg);
+  }
+  70% {
+    -webkit-transform: perspective(400px) rotateY(10deg);
+    -ms-transform: perspective(400px) rotateY(10deg);
+    transform: perspective(400px) rotateY(10deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+/* line 1801, ../theme/infusion/assets/css/animate.css */
+.flipInY {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+}
+
+@-webkit-keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+@keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+/* line 1839, ../theme/infusion/assets/css/animate.css */
+.flipOutX {
+  -webkit-animation-name: flipOutX;
+  animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+@-webkit-keyframes flipOutY {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+}
+@keyframes flipOutY {
+  0% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    -ms-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+}
+/* line 1877, ../theme/infusion/assets/css/animate.css */
+.flipOutY {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipOutY;
+  animation-name: flipOutY;
+}
+
+@-webkit-keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+@keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    -ms-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    -ms-transform: translateX(-20%) skewX(30deg);
+    transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    -ms-transform: translateX(0%) skewX(-15deg);
+    transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    -ms-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+/* line 1941, ../theme/infusion/assets/css/animate.css */
+.lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes lightSpeedOut {
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+@keyframes lightSpeedOut {
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    -ms-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    -ms-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+/* line 1978, ../theme/infusion/assets/css/animate.css */
+.lightSpeedOut {
+  -webkit-animation-name: lightSpeedOut;
+  animation-name: lightSpeedOut;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    transform: rotate(-200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    -ms-transform: rotate(-200deg);
+    transform: rotate(-200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* line 2025, ../theme/infusion/assets/css/animate.css */
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+@-webkit-keyframes rotateInDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* line 2070, ../theme/infusion/assets/css/animate.css */
+.rotateInDownLeft {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+}
+
+@-webkit-keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* line 2115, ../theme/infusion/assets/css/animate.css */
+.rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+}
+
+@-webkit-keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* line 2160, ../theme/infusion/assets/css/animate.css */
+.rotateInUpLeft {
+  -webkit-animation-name: rotateInUpLeft;
+  animation-name: rotateInUpLeft;
+}
+
+@-webkit-keyframes rotateInUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateInUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/* line 2205, ../theme/infusion/assets/css/animate.css */
+.rotateInUpRight {
+  -webkit-animation-name: rotateInUpRight;
+  animation-name: rotateInUpRight;
+}
+
+@-webkit-keyframes rotateOut {
+  0% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOut {
+  0% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(200deg);
+    -ms-transform: rotate(200deg);
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+/* line 2250, ../theme/infusion/assets/css/animate.css */
+.rotateOut {
+  -webkit-animation-name: rotateOut;
+  animation-name: rotateOut;
+}
+
+@-webkit-keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+/* line 2295, ../theme/infusion/assets/css/animate.css */
+.rotateOutDownLeft {
+  -webkit-animation-name: rotateOutDownLeft;
+  animation-name: rotateOutDownLeft;
+}
+
+@-webkit-keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+/* line 2340, ../theme/infusion/assets/css/animate.css */
+.rotateOutDownRight {
+  -webkit-animation-name: rotateOutDownRight;
+  animation-name: rotateOutDownRight;
+}
+
+@-webkit-keyframes rotateOutUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+/* line 2385, ../theme/infusion/assets/css/animate.css */
+.rotateOutUpLeft {
+  -webkit-animation-name: rotateOutUpLeft;
+  animation-name: rotateOutUpLeft;
+}
+
+@-webkit-keyframes rotateOutUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+/* line 2430, ../theme/infusion/assets/css/animate.css */
+.rotateOutUpRight {
+  -webkit-animation-name: rotateOutUpRight;
+  animation-name: rotateOutUpRight;
+}
+
+@-webkit-keyframes slideInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 2463, ../theme/infusion/assets/css/animate.css */
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 2496, ../theme/infusion/assets/css/animate.css */
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 2529, ../theme/infusion/assets/css/animate.css */
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+@-webkit-keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+@keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+/* line 2562, ../theme/infusion/assets/css/animate.css */
+.slideOutLeft {
+  -webkit-animation-name: slideOutLeft;
+  animation-name: slideOutLeft;
+}
+
+@-webkit-keyframes slideOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+@keyframes slideOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+/* line 2595, ../theme/infusion/assets/css/animate.css */
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+}
+
+@-webkit-keyframes slideOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+@keyframes slideOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+/* line 2628, ../theme/infusion/assets/css/animate.css */
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+@-webkit-keyframes hinge {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20%, 60% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  40% {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
+    transform: rotate(60deg) translateY(0);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(700px);
+    transform: translateY(700px);
+    opacity: 0;
+  }
+}
+@keyframes hinge {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20%, 60% {
+    -webkit-transform: rotate(80deg);
+    -ms-transform: rotate(80deg);
+    transform: rotate(80deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  40% {
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
+    -ms-transform: rotate(60deg) translateY(0);
+    transform: rotate(60deg) translateY(0);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(700px);
+    -ms-transform: translateY(700px);
+    transform: translateY(700px);
+    opacity: 0;
+  }
+}
+/* line 2732, ../theme/infusion/assets/css/animate.css */
+.hinge {
+  -webkit-animation-name: hinge;
+  animation-name: hinge;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    -ms-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+/* line 2769, ../theme/infusion/assets/css/animate.css */
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes rollOut {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+    transform: translateX(100%) rotate(120deg);
+  }
+}
+@keyframes rollOut {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+    -ms-transform: translateX(100%) rotate(120deg);
+    transform: translateX(100%) rotate(120deg);
+  }
+}
+/* line 2806, ../theme/infusion/assets/css/animate.css */
+.rollOut {
+  -webkit-animation-name: rollOut;
+  animation-name: rollOut;
+}
+
 /* #Portfolio Styles
     ================================================== */
 /* line 4, ../theme/infusion/assets/css/portfolio.css */
@@ -12109,7 +16722,7 @@ body.boxed {
   min-height: 500px;
   background: #ccc;
   margin: auto;
-  background: url(../images/demo/slider3.jpg) no-repeat 50%;
+  background: url(../theme/infusion/assets/images/demo/slider3.jpg) no-repeat 50%;
 }
 
 /* line 64, ../theme/infusion/assets/css/theme.css */
@@ -13329,7 +17942,7 @@ ul.flickr-widget li a:hover {
 .parallexbg {
   width: 100%;
   height: 100%;
-  background: url(../images/demo/bg2.jpg) #333;
+  background: url(../theme/infusion/assets/images/demo/bg2.jpg) #333;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -13338,22 +17951,22 @@ ul.flickr-widget li a:hover {
 
 /* line 1200, ../theme/infusion/assets/css/theme.css */
 .background1 {
-  background: url(../images/bg-images/bg1.jpg) #fff;
+  background: url(../theme/infusion/assets/images/bg-images/bg1.jpg) #fff;
 }
 
 /* line 1204, ../theme/infusion/assets/css/theme.css */
 .background2 {
-  background: url(../images/bg-images/bg2.jpg) #fff;
+  background: url(../theme/infusion/assets/images/bg-images/bg2.jpg) #fff;
 }
 
 /* line 1208, ../theme/infusion/assets/css/theme.css */
 .background3 {
-  background: url(../images/bg-images/bg4.jpg) #fff;
+  background: url(../theme/infusion/assets/images/bg-images/bg4.jpg) #fff;
 }
 
 /* line 1211, ../theme/infusion/assets/css/theme.css */
 .background6 {
-  background: url(../images/bg-images/bg6.jpg) #fff;
+  background: url(../theme/infusion/assets/images/bg-images/bg6.jpg) #fff;
 }
 
 /*
@@ -13437,7 +18050,7 @@ ul.flickr-widget li a:hover {
 
 /* line 1288, ../theme/infusion/assets/css/theme.css */
 .bg-pattern-1 {
-  background: url(../images/pattern/bg-pattern-1-s.png) repeat;
+  background: url(../theme/infusion/assets/images/pattern/bg-pattern-1-s.png) repeat;
 }
 
 /*
@@ -13899,7 +18512,7 @@ ul.flickr-widget li a:hover {
 
 /* line 1706, ../theme/infusion/assets/css/theme.css */
 .team1 {
-  background: url(../images/team/member.jpg) no-repeat center #fff;
+  background: url(../theme/infusion/assets/images/team/member.jpg) no-repeat center #fff;
   height: 352px;
   padding: 60px 0;
   background-repeat: no-repeat;
@@ -14942,7 +19555,7 @@ z-index: 105*/
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/spinner.gif) 50% 50% no-repeat #fff;
+  background: url(../theme/infusion/assets/images/spinner.gif) 50% 50% no-repeat #fff;
 }
 
 /*
@@ -15015,7 +19628,7 @@ z-index: 105*/
   width: 100%;
   z-index: 101;
   transition: all 0.2s ease 0s;
-  background: url(../images/demo/nav-bg.jpg) repeat scroll 50% 50% #0b1c33;
+  background: url(../theme/infusion/assets/images/demo/nav-bg.jpg) repeat scroll 50% 50% #0b1c33;
   position: relative;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
@@ -15242,7 +19855,7 @@ z-index: 105*/
 }
 
 /*@media only screen and (min-width : 768px) {
-     Make Navigation Toggle on Desktop Hover 
+     Make Navigation Toggle on Desktop Hover
     .dropdown:hover .dropdown-menu {
         display: block;
     }
@@ -15631,7 +20244,7 @@ z-index: 105*/
     width: 100%;
     z-index: 1001;
     transition: all 0.2s ease 0s;
-    background: url(../images/demo/nav-bg.jpg) repeat scroll 50% 50% #0b1c33;
+    background: url(../theme/infusion/assets/images/demo/nav-bg.jpg) repeat scroll 50% 50% #0b1c33;
     background-size: cover;
     position: relative;
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
