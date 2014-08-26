@@ -153,7 +153,7 @@ angular.module('myApp.controllers', [])
     .controller('Contacts', ['$scope', function($scope) {
 
     }])
-    .controller('MyCtrl1', ['$scope', function($scope) {
+    .controller('WhatWeDo', ['$scope', function($scope) {
 
     }])
     .controller('MyCtrl2', ['$scope', function($scope) {
@@ -210,11 +210,11 @@ $(function(){
     //===================================================
 
     $('#basicuse').jflickrfeed({
-        limit: 9, //change the limit
+        limit: 12, //change the limit
         qstrings: {
-            id: '52617155@N08'
+            id: '34439637@N08'
         },
-        itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+        itemTemplate: '<li><a href="{{link}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
     });
 
     //===================================================

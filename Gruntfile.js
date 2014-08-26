@@ -72,6 +72,15 @@ module.exports = function(grunt) {
                         ];
                     }
                 }
+            },
+            client: {
+                options: {
+                    port: 8000,
+                    base: 'app',
+                    hostname: 'localhost',
+                    keepalive: true,
+                    open: true
+                }
             }
         },
         open: {

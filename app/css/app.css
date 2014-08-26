@@ -20575,7 +20575,202 @@ z-index: 105*/
     position: relative !important;
   }
 }
-/* line 17, ../sass/app.scss */
+@font-face {
+  font-family: "casa-nova-reformas";
+  src: url("../theme/infusion/assets/fonts/casa-nova-reformas.eot");
+  src: url("../theme/infusion/assets/fonts/casa-nova-reformas.eot?#iefix") format("embedded-opentype"), url("../theme/infusion/assets/fonts/casa-nova-reformas.woff") format("woff"), url("../theme/infusion/assets/fonts/casa-nova-reformas.ttf") format("truetype"), url("../theme/infusion/assets/fonts/casa-nova-reformas.svg#casa-nova-reformas") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 15, ../theme/infusion/assets/css/fontastic-custom.css */
+[data-icon]:before {
+  font-family: "casa-nova-reformas" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, ../theme/infusion/assets/css/fontastic-custom.css */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "casa-nova-reformas" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-hammer:before {
+  content: "a";
+}
+
+/* line 44, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-lightbulb:before {
+  content: "b";
+}
+
+/* line 47, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-setting-tools:before {
+  content: "c";
+}
+
+/* line 50, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-waterdrop:before {
+  content: "d";
+}
+
+/* line 53, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-trash-bin:before {
+  content: "e";
+}
+
+/* line 56, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-user:before {
+  content: "g";
+}
+
+/* line 59, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-star-empty:before {
+  content: "h";
+}
+
+/* line 62, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-star:before {
+  content: "i";
+}
+
+/* line 65, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-brush-paint-streamline:before {
+  content: "j";
+}
+
+/* line 68, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-paint-bucket-streamline:before {
+  content: "k";
+}
+
+/* line 71, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-painting-roll-streamline:before {
+  content: "l";
+}
+
+/* line 74, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-tools-streamline:before {
+  content: "m";
+}
+
+/* line 77, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-settings-streamline:before {
+  content: "n";
+}
+
+/* line 80, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-home-house-streamline:before {
+  content: "o";
+}
+
+/* line 83, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-design-pencil-rule-streamline:before {
+  content: "q";
+}
+
+/* line 86, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-delete-garbage-streamline:before {
+  content: "r";
+}
+
+/* line 89, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-bubble-comment-streamline:before {
+  content: "s";
+}
+
+/* line 92, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-paintcan:before {
+  content: "t";
+}
+
+/* line 95, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-plug:before {
+  content: "u";
+}
+
+/* line 98, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-tools:before {
+  content: "v";
+}
+
+/* line 101, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-home:before {
+  content: "w";
+}
+
+/* line 104, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-dashboard:before {
+  content: "x";
+}
+
+/* line 107, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-calendar:before {
+  content: "y";
+}
+
+/* line 110, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-clippy:before {
+  content: "z";
+}
+
+/* line 113, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-pin-filled:before {
+  content: "A";
+}
+
+/* line 116, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-pin:before {
+  content: "B";
+}
+
+/* line 119, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-trash-full:before {
+  content: "C";
+}
+
+/* line 122, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-trash:before {
+  content: "D";
+}
+
+/* line 125, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-profile:before {
+  content: "E";
+}
+
+/* line 128, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-house:before {
+  content: "G";
+}
+
+/* line 131, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-paint-brush:before {
+  content: "H";
+}
+
+/* line 134, ../theme/infusion/assets/css/fontastic-custom.css */
+.icon-bucket:before {
+  content: "f";
+}
+
+/* line 18, ../sass/app.scss */
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -20584,24 +20779,24 @@ z-index: 105*/
   text-align: right;
   color: red;
 }
-/* line 25, ../sass/app.scss */
+/* line 26, ../sass/app.scss */
 .menu:before {
   content: "[";
 }
-/* line 29, ../sass/app.scss */
+/* line 30, ../sass/app.scss */
 .menu:after {
   content: "]";
 }
-/* line 33, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 .menu > li {
   display: inline;
 }
-/* line 36, ../sass/app.scss */
+/* line 37, ../sass/app.scss */
 .menu > li:before {
   content: "|";
   padding-right: 0.3em;
 }
-/* line 41, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
