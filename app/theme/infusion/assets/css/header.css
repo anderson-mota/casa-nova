@@ -48,7 +48,11 @@
 }
 
 .navbar-brand {
-    padding-top: 26px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-width: 180px;
 }
 
 .navbar .nav > li > a {
@@ -389,12 +393,8 @@
     padding-top: 8px;
 }
 
-.header.fixedHeader .navbar-brand {
-    padding-top: 15px !important;
-}
-
 .header.fixedHeader .navbar-brand img {
-    max-height: 26px;
+    max-height: 50px;
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
